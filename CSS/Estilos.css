@@ -31,4 +31,11 @@ section{
     background-color: #999 ;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.bussines-card:hover.front{
+    transform: perspective(700px) rotateX(180deg);
 }
